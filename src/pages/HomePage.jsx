@@ -257,7 +257,7 @@ const HomePage = () => {
             <div className="box p-2 bg-white shadow rounded-lg">
               <img src={fashion} alt="Profile 1" className="rounded-lg" />
               <h3 className="text-xl text-center font-bold mt-6 mb-2">
-                gallery Fashion
+                Gallery Fashion
               </h3>
             </div>
             <div className="box p-2 bg-white shadow rounded-lg">
@@ -269,7 +269,7 @@ const HomePage = () => {
             <div className="box p-2 bg-white shadow rounded-lg">
               <img src={working1} alt="Profile 1" className="rounded-lg" />
               <h3 className="text-xl text-center font-bold mt-6 mb-2">
-                Ruang CO-Working
+                CO-Working Space
               </h3>
             </div>
             <div className="box p-2 bg-white shadow rounded-lg">
@@ -281,7 +281,7 @@ const HomePage = () => {
             <div className="box p-2 bg-white shadow rounded-lg">
               <img src={working} alt="Profile 1" className="rounded-lg" />
               <h3 className="text-xl text-center font-bold mt-6 mb-2">
-                Ruang CO-Working
+                CO-Working Space
               </h3>
             </div>
             <div className="box p-2 bg-white shadow rounded-lg">
