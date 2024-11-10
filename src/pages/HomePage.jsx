@@ -1,6 +1,7 @@
 import HeroImage from "../assets/images/MCC.jpg";
 import AboutImage from "../assets/images/MCC2.jpg";
 import org from "../assets/images/struktur.png";
+import komite from "../assets/images/komite-ekraf.png";
 // Desa Tematik
 import desa1 from "../assets/images/Desa/Borogojol.png";
 import desa_2 from "../assets/images/Desa/Payung.png";
@@ -54,12 +55,14 @@ import pameran from "../assets/images/Ruang-Pameran.jpeg";
 import working from "../assets/images/Co-working-Space1.jpeg";
 import working1 from "../assets/images/Co-working-Space.jpeg";
 import pertemuan from "../assets/images/Ruang-pertemuan.jpeg";
+import music from "../assets/images/gallery-music.jpeg";
 // Situs Terkait
 import opendata from "../assets/images/situs/opendata.png";
 import pemerintah from "../assets/images/situs/majalengka.png";
 import disparbud from "../assets/images/situs/jabar.png";
 import kemenekraf from "../assets/images/situs/kemenekraf.png";
 import diskominfo from "../assets/images/situs/diskominfo.png";
+import kreasi from "../assets/images/situs/kreasi-jabar.png";
 
 const HomePage = () => {
   const onSubmit = async (event) => {
@@ -161,7 +164,13 @@ const HomePage = () => {
           <h1 className="text-center lg:text-5xl/tight text-3xl font-medium mb-7">
             Komite Ekonomi{" "}
             <span className="font-bold text-sky-400">Kreatif</span>
+            <img
+              src={komite}
+              className="w-64 mx-auto mt-5"
+              alt="komite ekraf"
+            />
           </h1>
+
           <div className="box pt-5">
             <div className="text-center bg-white shadow rounded-lg w-auto h-auto items-center">
               <h1 className="text-center lg:text-3xl/tight text-3xl font-medium mb-7">
@@ -173,9 +182,7 @@ const HomePage = () => {
                 lembaga dalam penyusunan kegiatan pengembangan, mengarahkan
                 serta mengawal pelaksanaan program aksi pengembangan ekonomi
                 kreatif di kabupaten majalengka sesuai dengan keputusan bupati
-                majalengka nomor eka.02.01/kep.513-bapedalitbang/2023 Visi:
-                Terwujudnya ekonomi kreatif sebagai sektor potensial unggulan
-                yang mendukung pertumbuhan ekonomi di kabupaten majalengka.
+                majalengka nomor eka.02.01/kep.513-bapedalitbang/2023.
               </p>
             </div>
           </div>
@@ -297,7 +304,7 @@ const HomePage = () => {
               </h3>
             </div>
             <div className="box p-2 bg-white shadow rounded-lg">
-              <img src={workshop} alt="Profile 1" className="rounded-lg" />
+              <img src={music} alt="Profile 1" className="rounded-lg" />
               <h3 className="text-xl text-center font-bold mt-6 mb-2">
                 Studio Musik
               </h3>
@@ -317,6 +324,21 @@ const HomePage = () => {
               className="flex px-5 mt-3 mx-auto bg-sky-400 py-1 rounded-full text-white font-bold hover:bg-sky-500 transition-all"
             >
               Download File
+            </button>
+          </a>
+        </div>
+        {/* Link Pelaku Ekraf */}
+        <div className="pt-10">
+          <h2 className="text-center lg:text-2xl/tight text-1xl font-medium mb-2">
+            Registrasi Pelaku Ekraf Majalengka
+          </h2>
+          <i className="ri-download-cloud-2-line flex px-5 text-3xl justify-center"></i>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSelUgFVqrPRqGerTgU7n5aXLraDRnkmlrwgw9adufF6T-E_ug/viewform">
+            <button
+              type="submit"
+              className="flex px-5 mt-3 mx-auto bg-sky-400 py-1 rounded-full text-white font-bold hover:bg-sky-500 transition-all"
+            >
+              Registrasi Sekarang
             </button>
           </a>
         </div>
@@ -576,10 +598,10 @@ const HomePage = () => {
           <ul className="box px-5 bg-white shadow rounded-lg pt-10 mt-20 pb-32">
             <div className="flex flex-wrap gap-32 justify-evenly">
               <li className="size-28">
-                <a href="https://majalengkakab.go.id/">
-                  <img src={pemerintah} alt="Pemerintah Kab. Majalengka" />
+                <a href="https://kemenparekraf.go.id/">
+                  <img src={kemenekraf} alt="Kemenekraf" />
                   <p className="text-center text-sm font-medium hover:text-sky-500 pt-4">
-                    Pemerintah Kabupaten Majalengka
+                    Kementrian Pariwisata dan Ekonomi Kreatif
                   </p>
                 </a>
               </li>
@@ -591,6 +613,24 @@ const HomePage = () => {
                   </p>
                 </a>
               </li>
+
+              <li className="size-20">
+                <a href="https://kreasijabar.id/ekraf?city_ids=252">
+                  <img src={kreasi} alt="Pemerintah Kab. Majalengka" />
+                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-4">
+                    Kreasi Jabar
+                  </p>
+                </a>
+              </li>
+              <li className="size-28">
+                <a href="https://majalengkakab.go.id/">
+                  <img src={pemerintah} alt="Pemerintah Kab. Majalengka" />
+                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-4">
+                    Pemerintah Kabupaten Majalengka
+                  </p>
+                </a>
+              </li>
+
               <li className="size-28">
                 <a href="https://data.majalengkakab.go.id/">
                   <img src={opendata} alt="Open Data Kab. Majalengka" />
@@ -604,14 +644,6 @@ const HomePage = () => {
                   <img src={diskominfo} alt="Diskominfo Kab. Majalengka" />
                   <p className="text-center text-sm font-medium hover:text-sky-500 pt-4">
                     Dinas Komunikasi dan Informatika Kabupaten Majalengka
-                  </p>
-                </a>
-              </li>
-              <li className="size-28">
-                <a href="https://kemenparekraf.go.id/">
-                  <img src={kemenekraf} alt="Kemenekraf" />
-                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-4">
-                    Kementrian Pariwisata dan Ekonomi Kreatif
                   </p>
                 </a>
               </li>
