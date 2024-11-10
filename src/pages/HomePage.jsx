@@ -54,6 +54,7 @@ import pameran from "../assets/images/Ruang-Pameran.jpeg";
 import working from "../assets/images/Co-working-Space1.jpeg";
 import working1 from "../assets/images/Co-working-Space.jpeg";
 import pertemuan from "../assets/images/Ruang-pertemuan.jpeg";
+import music from "../assets/images/gallery-music.jpeg";
 // Situs Terkait
 import opendata from "../assets/images/situs/opendata.png";
 import pemerintah from "../assets/images/situs/majalengka.png";
