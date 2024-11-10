@@ -297,7 +297,7 @@ const HomePage = () => {
               </h3>
             </div>
             <div className="box p-2 bg-white shadow rounded-lg">
-              <img src={workshop} alt="Profile 1" className="rounded-lg" />
+              <img src={music} alt="Profile 1" className="rounded-lg" />
               <h3 className="text-xl text-center font-bold mt-6 mb-2">
                 Studio Musik
               </h3>
