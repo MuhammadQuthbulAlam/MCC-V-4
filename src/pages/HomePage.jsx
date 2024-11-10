@@ -170,8 +170,8 @@ const HomePage = () => {
                 <span className="font-bold text-sky-400">Ekraf</span>
               </h1>
               <p className="text-center px-2 bg-white shadow rounded-lg w-auto h-auto items-center py-1.5 text-wrap">
-                Komite pengembangan ekonomi kreatif majalengka adalah mitra
-                lembaga dalam penyusunan kegiatan pengembangan, mengarahkan
+                Komite pengembangan ekonomi kreatif majalengka adalah lembaga mitra pemerintahan 
+                dalam penyusunan kegiatan pengembangan, mengarahkan
                 serta mengawal pelaksanaan program aksi pengembangan ekonomi
                 kreatif di kabupaten majalengka sesuai dengan keputusan bupati
                 majalengka nomor eka.02.01/kep.513-bapedalitbang/2023 Visi:
