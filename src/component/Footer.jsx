@@ -13,7 +13,7 @@ const Footer = () => {
           <a href="https://www.facebook.com/profile.php?id=61558329437743">
             <i className="ri-facebook-circle-fill text-2xl hover:text-sky-700"></i>
           </a>
-          <a href="https://wa.me/082312001695">
+          <a href="https://wa.me/6282312001695">
             <i className="ri-whatsapp-fill text-2xl hover:text-green-400"></i>
           </a>
           <a href="https://youtube.com/@komiteekrafmajalengka?si=1C31zZP2ZtZp59F8">
