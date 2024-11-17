@@ -170,53 +170,56 @@ const HomePage = () => {
               alt="komite ekraf"
             />
           </h1>
-
-          <div className="box pt-5">
-            <div className="text-center bg-white shadow rounded-lg w-auto h-auto items-center">
-              <h1
-                className="text-center lg:text-3xl/tight text-3xl font-medium mb-7"
-                id="Tentang-Ekraf"
-              >
-                Tentang Komite{" "}
-                <span className="font-bold text-sky-400">Ekraf</span>
-              </h1>
-              <p className="text-center px-2 bg-white shadow rounded-lg w-auto h-auto items-center py-1.5 text-wrap">
-                Komite pengembangan ekonomi kreatif majalengka adalah lembaga
-                mitra pemerintahan dalam penyusunan kegiatan pengembangan,
-                mengarahkan serta mengawal pelaksanaan program aksi pengembangan
-                ekonomi kreatif di kabupaten majalengka sesuai dengan keputusan
-                bupati majalengka nomor eka.02.01/kep.513-bapedalitbang/2023.
-              </p>
+          {/*Tentang Ekraf*/}
+          <div className="grid md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-3">
+            <div className="box pt-5">
+              <div className="text-center bg-white shadow rounded-lg w-auto h-auto items-center">
+                <h1
+                  className="text-center lg:text-3xl/tight text-3xl font-medium mb-7"
+                  id="Tentang-Ekraf"
+                >
+                  Tentang Komite{" "}
+                  <span className="font-bold text-sky-400">Ekraf</span>
+                </h1>
+                <p className="text-center px-2 bg-white shadow rounded-lg w-auto h-auto items-center py-1.5 text-wrap">
+                  Komite pengembangan ekonomi kreatif majalengka adalah lembaga
+                  mitra pemerintahan dalam penyusunan kegiatan pengembangan,
+                  mengarahkan serta mengawal pelaksanaan program aksi
+                  pengembangan ekonomi kreatif di kabupaten majalengka sesuai
+                  dengan keputusan bupati majalengka nomor
+                  eka.02.01/kep.513-bapedalitbang/2023.
+                </p>
+              </div>
             </div>
-          </div>
-          {/*Visi & Misi*/}
-          <div className="box pt-5" id="visimisi">
-            <div className="text-center bg-white shadow rounded-lg w-auto h-auto items-center">
-              <h1 className="text-center lg:text-3xl/tight text-3xl font-medium mb-7">
-                Visi & Misi{" "}
-                <span className="font-bold text-sky-400">Ekraf</span>
-              </h1>
-              <h3 className="pt-1 text-2xl font-medium text-sky-400">Visi</h3>
-              <p className="text-center px-2 text-wrap">
-                Terwujudnya ekonomi kreatif sebagai sektor potensial unggulan
-                yang mendukung pertumbuhan ekonomi di kabupaten majalengka.
-              </p>
-              <h3 className="pt-5 text-2xl font-medium text-sky-400">Misi</h3>
-              <p className="text-center px-2 text-wrap">
-                1. Mengoptimalisasi aktivasi gedung majalengka creative center
-                sebagai ruang edukasi kreasi dan ekspresi bagi para pelaku
-                ekonomi kreatif di kabupaten majalengka
-                <p>
-                  2. Mendorong pertumbuhan dan perkembangan ekosistem ekonomi
-                  kreatif di kabupaten majalengka
+            {/*Visi & Misi*/}
+            <div className="box pt-5" id="visimisi">
+              <div className="text-center bg-white shadow rounded-lg w-auto h-auto items-center">
+                <h1 className="text-center lg:text-3xl/tight text-3xl font-medium mb-7">
+                  Visi & Misi{" "}
+                  <span className="font-bold text-sky-400">Ekraf</span>
+                </h1>
+                <h3 className="pt-1 text-2xl font-medium text-sky-400">Visi</h3>
+                <p className="text-center px-2 text-wrap">
+                  Terwujudnya ekonomi kreatif sebagai sektor potensial unggulan
+                  yang mendukung pertumbuhan ekonomi di kabupaten majalengka.
                 </p>
-                <p>
-                  3. Mendorong pemerintah kab majalengka dalam menerbitkan
-                  peraturan daerah tentang ekonomi kreatif sebagai payung hukum
-                  bagi tumbuh kembangangnya ekosistem ekonomi kreatif di
-                  kabupaten majalengka
+                <h3 className="pt-5 text-2xl font-medium text-sky-400">Misi</h3>
+                <p className="text-center px-2 text-wrap">
+                  1. Mengoptimalisasi aktivasi gedung majalengka creative center
+                  sebagai ruang edukasi kreasi dan ekspresi bagi para pelaku
+                  ekonomi kreatif di kabupaten majalengka
+                  <p>
+                    2. Mendorong pertumbuhan dan perkembangan ekosistem ekonomi
+                    kreatif di kabupaten majalengka
+                  </p>
+                  <p>
+                    3. Mendorong pemerintah kab majalengka dalam menerbitkan
+                    peraturan daerah tentang ekonomi kreatif sebagai payung
+                    hukum bagi tumbuh kembangangnya ekosistem ekonomi kreatif di
+                    kabupaten majalengka
+                  </p>
                 </p>
-              </p>
+              </div>
             </div>
           </div>
           <h1
@@ -322,40 +325,42 @@ const HomePage = () => {
         </div>
 
         {/* Alur Pengajuan Gedung MCC */}
-        <div
-          className="pt-10 mt-5 pb-5 bg-white shadow rounded-lg"
-          id="pengajuan"
-        >
-          <h2 className="text-center lg:text-2xl/tight text-1xl font-medium mb-2">
-            Download Alur Pengajuan Gedung Untuk Kegiatan MCC di bawah ini
-          </h2>
-          <i className="ri-download-cloud-2-line flex px-5 text-3xl justify-center"></i>
-          <a href={alur_mcc}>
-            <button
-              type="submit"
-              className="flex px-5 mt-3 mx-auto bg-sky-400 py-1 rounded-full text-white font-bold hover:bg-sky-500 transition-all"
-            >
-              Download File
-            </button>
-          </a>
-        </div>
-        {/* Link Pelaku Ekraf */}
-        <div
-          className="pt-10 mt-5 pb-5 bg-white shadow rounded-lg"
-          id="registrasi"
-        >
-          <h2 className="text-center lg:text-2xl/tight text-1xl font-medium mb-2">
-            Registrasi Pelaku Ekraf Majalengka
-          </h2>
-          <i className="ri-download-cloud-2-line flex px-5 text-3xl justify-center"></i>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSelUgFVqrPRqGerTgU7n5aXLraDRnkmlrwgw9adufF6T-E_ug/viewform">
-            <button
-              type="submit"
-              className="flex px-5 mt-3 mx-auto bg-sky-400 py-1 rounded-full text-white font-bold hover:bg-sky-500 transition-all"
-            >
-              Registrasi Sekarang
-            </button>
-          </a>
+        <div className="grid md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-3">
+          <div
+            className="pt-10 mt-5 pb-5 bg-white shadow rounded-lg"
+            id="pengajuan"
+          >
+            <h2 className="text-center lg:text-2xl/tight text-1xl font-medium mb-2">
+              Download Alur Pengajuan Gedung Untuk Kegiatan MCC di bawah ini
+            </h2>
+            <i className="ri-download-cloud-2-line flex px-5 text-3xl justify-center"></i>
+            <a href={alur_mcc}>
+              <button
+                type="submit"
+                className="flex px-5 mt-3 mx-auto bg-sky-400 py-1 rounded-full text-white font-bold hover:bg-sky-500 transition-all"
+              >
+                Download File
+              </button>
+            </a>
+          </div>
+          {/* Link Pelaku Ekraf */}
+          <div
+            className="pt-10 mt-5 pb-5 bg-white shadow rounded-lg"
+            id="registrasi"
+          >
+            <h2 className="text-center lg:text-2xl/tight text-1xl font-medium mb-2">
+              Registrasi Pelaku Ekraf Majalengka
+            </h2>
+            <i className="ri-download-cloud-2-line flex px-5 text-3xl justify-center"></i>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSelUgFVqrPRqGerTgU7n5aXLraDRnkmlrwgw9adufF6T-E_ug/viewform">
+              <button
+                type="submit"
+                className="flex px-5 mt-3 mx-auto bg-sky-400 py-1 rounded-full text-white font-bold hover:bg-sky-500 transition-all"
+              >
+                Registrasi Sekarang
+              </button>
+            </a>
+          </div>
         </div>
         {/*Desa Kreatif*/}
         <div className="profile pt-32 z-50" id="profile">
@@ -610,9 +615,9 @@ const HomePage = () => {
           <h1 className="text-center lg:text-5xl/tight text-3xl font-medium mb-2">
             Situs <span className="font-bold text-sky-400">Terkait</span>
           </h1>
-          <ul className="box px-5 bg-white shadow rounded-lg pt-10 mt-20 pb-32">
+          <ul className="box px-5 bg-white shadow rounded-lg pt-10 mt-20 pb-40">
             <div className="flex flex-wrap gap-32 justify-evenly">
-              <li className="size-28">
+              <li className="size-24">
                 <a href="https://kemenparekraf.go.id/">
                   <img src={kemenekraf} alt="Kemenekraf" />
                   <p className="text-center text-sm font-medium hover:text-sky-500 pt-4">
@@ -620,7 +625,7 @@ const HomePage = () => {
                   </p>
                 </a>
               </li>
-              <li className="size-28 ">
+              <li className="size-24">
                 <a href="https://disparbud.jabarprov.go.id/">
                   <img src={disparbud} alt="Disparbud Jabar" />
                   <p className="text-center text-sm font-medium hover:text-sky-500 pt-4">
@@ -637,7 +642,7 @@ const HomePage = () => {
                   </p>
                 </a>
               </li>
-              <li className="size-28">
+              <li className="size-24">
                 <a href="https://majalengkakab.go.id/">
                   <img src={pemerintah} alt="Pemerintah Kab. Majalengka" />
                   <p className="text-center text-sm font-medium hover:text-sky-500 pt-4">
@@ -646,7 +651,7 @@ const HomePage = () => {
                 </a>
               </li>
 
-              <li className="size-28">
+              <li className="size-24">
                 <a href="https://data.majalengkakab.go.id/">
                   <img src={opendata} alt="Open Data Kab. Majalengka" />
                   <p className="text-center text-sm font-medium hover:text-sky-500 pt-4">
@@ -654,7 +659,7 @@ const HomePage = () => {
                   </p>
                 </a>
               </li>
-              <li className="size-28">
+              <li className="size-24">
                 <a href="https://diskominfo.majalengkakab.go.id/">
                   <img src={diskominfo} alt="Diskominfo Kab. Majalengka" />
                   <p className="text-center text-sm font-medium hover:text-sky-500 pt-4">
