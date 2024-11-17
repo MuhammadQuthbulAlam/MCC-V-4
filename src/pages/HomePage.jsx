@@ -322,7 +322,10 @@ const HomePage = () => {
         </div>
 
         {/* Alur Pengajuan Gedung MCC */}
-        <div className="pt-10">
+        <div
+          className="pt-10 mt-5 pb-5 bg-white shadow rounded-lg"
+          id="pengajuan"
+        >
           <h2 className="text-center lg:text-2xl/tight text-1xl font-medium mb-2">
             Download Alur Pengajuan Gedung Untuk Kegiatan MCC di bawah ini
           </h2>
@@ -337,7 +340,10 @@ const HomePage = () => {
           </a>
         </div>
         {/* Link Pelaku Ekraf */}
-        <div className="pt-10">
+        <div
+          className="pt-10 mt-5 pb-5 bg-white shadow rounded-lg"
+          id="registrasi"
+        >
           <h2 className="text-center lg:text-2xl/tight text-1xl font-medium mb-2">
             Registrasi Pelaku Ekraf Majalengka
           </h2>
