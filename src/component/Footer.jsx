@@ -28,19 +28,23 @@ const Footer = () => {
         <p className="mx-4 bg-slate-950 text-white px-4 text-left pt-5 pb-5 font-bold">
           Komite Ekonomi Kreatif <br />
           <a href="#Tentang-Ekraf">
-            <span className="font-normal">Tentang Komite Ekraf</span>
+            <span className="font-normal hover:text-sky-400">
+              Tentang Komite Ekraf
+            </span>
           </a>
           <br />
           <a href="#visimisi">
-            <span className="font-normal">Visi & Misi</span>
+            <span className="font-normal hover:text-sky-400">Visi & Misi</span>
           </a>
           <br />
           <a href="#struktur">
-            <span className="font-normal">Struktur Organisasi</span>
+            <span className="font-normal hover:text-sky-400">
+              Struktur Organisasi
+            </span>
           </a>
           <br />
           <a href="#perencanaan">
-            <span className="font-normal">
+            <span className="font-normal hover:text-sky-400">
               Perencanaan Pengembangan Potensi Ekraf
             </span>
           </a>
@@ -48,13 +52,29 @@ const Footer = () => {
         <p className="mx-4 bg-slate-950 text-white px-4 text-left pt-5 pb-5 font-bold">
           Gedung MCC
           <br />
-          <span className="font-normal">Fasilitas Gedung</span>
+          <a href="#fasilitas">
+            <span className="font-normal hover:text-sky-400">
+              Fasilitas Gedung
+            </span>
+          </a>
           <br />
-          <span className="font-normal">Alur Pengajuan Gedung</span>
+          <a href="#pengajuan">
+            <span className="font-normal hover:text-sky-400">
+              Alur Pengajuan Gedung
+            </span>
+          </a>
           <br />
-          <span className="font-normal">Registrasi Pelaku Ekraf</span>
+          <a href="#registrasi">
+            <span className="font-normal hover:text-sky-400">
+              Registrasi Pelaku Ekraf
+            </span>
+          </a>
           <br />
-          <span className="font-normal">Desa Tematik Kreatif</span>
+          <a href="#profile">
+            <span className="font-normal hover:text-sky-400">
+              Desa Tematik Kreatif
+            </span>
+          </a>
         </p>
       </div>
       <hr />
