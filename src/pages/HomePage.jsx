@@ -166,23 +166,26 @@ const HomePage = () => {
             <span className="font-bold text-sky-400">Kreatif</span>
             <img
               src={komite}
-              className="w-64 mx-auto mt-5"
+              className="w-52 mx-auto mt-5"
               alt="komite ekraf"
             />
           </h1>
 
           <div className="box pt-5">
             <div className="text-center bg-white shadow rounded-lg w-auto h-auto items-center">
-              <h1 className="text-center lg:text-3xl/tight text-3xl font-medium mb-7">
+              <h1
+                className="text-center lg:text-3xl/tight text-3xl font-medium mb-7"
+                id="Tentang-Ekraf"
+              >
                 Tentang Komite{" "}
                 <span className="font-bold text-sky-400">Ekraf</span>
               </h1>
               <p className="text-center px-2 bg-white shadow rounded-lg w-auto h-auto items-center py-1.5 text-wrap">
-                Komite pengembangan ekonomi kreatif majalengka adalah lembaga mitra pemerintahan 
-                dalam penyusunan kegiatan pengembangan, mengarahkan
-                serta mengawal pelaksanaan program aksi pengembangan ekonomi
-                kreatif di kabupaten majalengka sesuai dengan keputusan bupati
-                majalengka nomor eka.02.01/kep.513-bapedalitbang/2023.
+                Komite pengembangan ekonomi kreatif majalengka adalah lembaga
+                mitra pemerintahan dalam penyusunan kegiatan pengembangan,
+                mengarahkan serta mengawal pelaksanaan program aksi pengembangan
+                ekonomi kreatif di kabupaten majalengka sesuai dengan keputusan
+                bupati majalengka nomor eka.02.01/kep.513-bapedalitbang/2023.
               </p>
             </div>
           </div>
@@ -216,7 +219,10 @@ const HomePage = () => {
               </p>
             </div>
           </div>
-          <h1 className="pt-5 text-center lg:text-3xl/tight text-3xl font-medium mb-7">
+          <h1
+            className="pt-5 text-center lg:text-3xl/tight text-3xl font-medium mb-7"
+            id="struktur"
+          >
             Struktur Organisasi{" "}
             <span className="font-bold text-sky-400">Ekraf</span>
           </h1>
@@ -225,7 +231,10 @@ const HomePage = () => {
             alt="Struktur Organisasi"
             className="mt-10 text-center lg:w-[500px] w-[400px] md:m-50 mx-auto rounded-lg shadow"
           />
-          <h2 className="mt-10 text-center lg:text-2xl/tight text-1xl font-medium mb-2">
+          <h2
+            className="mt-10 text-center lg:text-2xl/tight text-1xl font-medium mb-2"
+            id="perencanaan"
+          >
             PERENCANAAN PENGEMBANGAN POTENSI EKONOMI KREATIF KABUPATEN
             MAJALENGKA
           </h2>
