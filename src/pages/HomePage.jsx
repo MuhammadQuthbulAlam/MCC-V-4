@@ -597,30 +597,31 @@ const HomePage = () => {
               </button>
             </form>
           </section>
-          {/* Maps */}
-          <div className="flex items-center rounded-lg">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2399.755440848336!2d108.23259038137675!3d-6.836432259248356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f2f86d8f48b7f%3A0x2608311136d4c262!2sGedung%20MCC%20(%20Majalengka%20Creative%20Center%20)!5e0!3m2!1sen!2sid!4v1731155851875!5m2!1sen!2sid"
-              width="1125"
-              height="350"
-              style={{ border: "0" }}
-              allowfullscreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
+        </div>
+        {/* Maps */}
+        <div className="flex items-center rounded-lg">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2399.755440848336!2d108.23259038137675!3d-6.836432259248356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f2f86d8f48b7f%3A0x2608311136d4c262!2sGedung%20MCC%20(%20Majalengka%20Creative%20Center%20)!5e0!3m2!1sen!2sid!4v1731155851875!5m2!1sen!2sid"
+            width="1350"
+            height="350"
+            style={{ border: "0" }}
+            allowfullscreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            className="flex items-center rounded-lg"
+          ></iframe>
         </div>
         {/* Situs Terkait */}
         <div className="situs pt-10" id="situs">
           <h1 className="text-center lg:text-5xl/tight text-3xl font-medium mb-2">
             Situs <span className="font-bold text-sky-400">Terkait</span>
           </h1>
-          <ul className="box px-5 bg-white shadow rounded-lg pt-10 mt-20 pb-40">
-            <div className="flex flex-wrap gap-32 justify-evenly">
-              <li className="size-24">
+          <ul className="box px-5 bg-white shadow rounded-lg py-5 my-5">
+            <div className="flex flex-row gap-24 justify-evenly overflow-x-auto pt-10 pb-32 my-1 mx-auto px-1">
+              <li className="size-24 mx-5">
                 <a href="https://kemenparekraf.go.id/">
                   <img src={kemenekraf} alt="Kemenekraf" />
-                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-4">
+                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-1">
                     Kementrian Pariwisata dan Ekonomi Kreatif
                   </p>
                 </a>
@@ -628,16 +629,16 @@ const HomePage = () => {
               <li className="size-24">
                 <a href="https://disparbud.jabarprov.go.id/">
                   <img src={disparbud} alt="Disparbud Jabar" />
-                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-4">
+                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-1">
                     Dinas Pariwisata dan Kebudayaan Jawa Barat
                   </p>
                 </a>
               </li>
 
-              <li className="size-20">
+              <li className="size-24">
                 <a href="https://kreasijabar.id/ekraf?city_ids=252">
                   <img src={kreasi} alt="Pemerintah Kab. Majalengka" />
-                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-4">
+                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-1">
                     Kreasi Jabar
                   </p>
                 </a>
@@ -645,7 +646,7 @@ const HomePage = () => {
               <li className="size-24">
                 <a href="https://majalengkakab.go.id/">
                   <img src={pemerintah} alt="Pemerintah Kab. Majalengka" />
-                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-4">
+                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-1">
                     Pemerintah Kabupaten Majalengka
                   </p>
                 </a>
@@ -654,7 +655,7 @@ const HomePage = () => {
               <li className="size-24">
                 <a href="https://data.majalengkakab.go.id/">
                   <img src={opendata} alt="Open Data Kab. Majalengka" />
-                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-4">
+                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-1">
                     Open Data Kabupaten Majalengka
                   </p>
                 </a>
@@ -662,7 +663,7 @@ const HomePage = () => {
               <li className="size-24">
                 <a href="https://diskominfo.majalengkakab.go.id/">
                   <img src={diskominfo} alt="Diskominfo Kab. Majalengka" />
-                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-4">
+                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-1">
                     Dinas Komunikasi dan Informatika Kabupaten Majalengka
                   </p>
                 </a>
