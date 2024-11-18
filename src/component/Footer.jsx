@@ -27,6 +27,7 @@ const Footer = () => {
         </p>
         <p className="mx-4 bg-slate-950 text-white px-4 text-left pt-5 pb-5 font-bold">
           Komite Ekonomi Kreatif <br />
+          <br />
           <a href="#Tentang-Ekraf">
             <span className="font-normal hover:text-sky-400">
               Tentang Komite Ekraf
@@ -51,6 +52,7 @@ const Footer = () => {
         </p>
         <p className="mx-4 bg-slate-950 text-white px-4 text-left pt-5 pb-5 font-bold">
           Gedung MCC
+          <br />
           <br />
           <a href="#fasilitas">
             <span className="font-normal hover:text-sky-400">
