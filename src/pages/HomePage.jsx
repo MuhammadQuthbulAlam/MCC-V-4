@@ -617,11 +617,11 @@ const HomePage = () => {
             Situs <span className="font-bold text-sky-400">Terkait</span>
           </h1>
           <ul className="box px-5 bg-white shadow rounded-lg py-5 my-5">
-            <div className="flex flex-row gap-24 justify-evenly overflow-x-auto pt-10 pb-32 my-1 mx-auto px-1">
+            <div className="flex flex-row gap-24 justify-evenly overflow-x-auto pt-10 pb-40 my-1 mx-auto px-1">
               <li className="size-24 mx-5">
                 <a href="https://kemenparekraf.go.id/">
                   <img src={kemenekraf} alt="Kemenekraf" />
-                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-1">
+                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-8">
                     Kementrian Pariwisata dan Ekonomi Kreatif
                   </p>
                 </a>
@@ -629,16 +629,16 @@ const HomePage = () => {
               <li className="size-24">
                 <a href="https://disparbud.jabarprov.go.id/">
                   <img src={disparbud} alt="Disparbud Jabar" />
-                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-1">
+                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-8">
                     Dinas Pariwisata dan Kebudayaan Jawa Barat
                   </p>
                 </a>
               </li>
 
-              <li className="size-24">
+              <li className="size-20">
                 <a href="https://kreasijabar.id/ekraf?city_ids=252">
                   <img src={kreasi} alt="Pemerintah Kab. Majalengka" />
-                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-1">
+                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-3">
                     Kreasi Jabar
                   </p>
                 </a>
@@ -646,7 +646,7 @@ const HomePage = () => {
               <li className="size-24">
                 <a href="https://majalengkakab.go.id/">
                   <img src={pemerintah} alt="Pemerintah Kab. Majalengka" />
-                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-1">
+                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-8">
                     Pemerintah Kabupaten Majalengka
                   </p>
                 </a>
@@ -655,7 +655,7 @@ const HomePage = () => {
               <li className="size-24">
                 <a href="https://data.majalengkakab.go.id/">
                   <img src={opendata} alt="Open Data Kab. Majalengka" />
-                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-1">
+                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-8">
                     Open Data Kabupaten Majalengka
                   </p>
                 </a>
@@ -663,7 +663,7 @@ const HomePage = () => {
               <li className="size-24">
                 <a href="https://diskominfo.majalengkakab.go.id/">
                   <img src={diskominfo} alt="Diskominfo Kab. Majalengka" />
-                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-1">
+                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-8">
                     Dinas Komunikasi dan Informatika Kabupaten Majalengka
                   </p>
                 </a>
