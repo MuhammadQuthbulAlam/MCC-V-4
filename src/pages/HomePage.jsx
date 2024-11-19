@@ -121,9 +121,70 @@ const HomePage = () => {
             />
           </div>
         </div>
+        {/* SUbsektor Ekraf*/}
+        <div className="container mx-auto pb-5 pt-5">
+          <h2 className="text-3xl font-medium mb-4">
+            17 SUBSEKTOR{" "}
+            <span className="text-sky-400 font-bold">EKONOMI KREATIF</span>
+          </h2>
+          <div className="box bg-white shadow rounded-lg flex flex-row gap-9 overflow-x-auto justify-between pt-5 pb-5 px-5">
+            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
+              <i className="ri-gamepad-line flex justify-center text-4xl text-white"></i>
+            </div>
+            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
+              <i className="ri-scissors-line flex justify-center text-4xl text-white"></i>
+            </div>
+            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
+              <i className="ri-home-office-line flex justify-center text-4xl text-white"></i>
+            </div>
+            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
+              <i className="ri-music-2-line flex justify-center text-4xl text-white"></i>
+            </div>
+            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
+              <i className="ri-brush-line flex justify-center text-4xl text-white"></i>
+            </div>
+            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
+              <i className="ri-dropbox-line flex justify-center text-4xl text-white"></i>
+            </div>
+            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
+              <i className="ri-handbag-line flex justify-center text-4xl text-white"></i>
+            </div>
+            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
+              <i className="ri-bowl-line flex justify-center text-4xl text-white"></i>
+            </div>
+            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
+              <i className="ri-scissors-line flex justify-center text-4xl text-white"></i>
+            </div>
+            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
+              <i className="ri-scissors-line flex justify-center text-4xl text-white"></i>
+            </div>
+            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
+              <i className="ri-scissors-line flex justify-center text-4xl text-white"></i>
+            </div>
+            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
+              <i className="ri-scissors-line flex justify-center text-4xl text-white"></i>
+            </div>
+            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
+              <i className="ri-scissors-line flex justify-center text-4xl text-white"></i>
+            </div>
+            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
+              <i className="ri-scissors-line flex justify-center text-4xl text-white"></i>
+            </div>
+            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
+              <i className="ri-scissors-line flex justify-center text-4xl text-white"></i>
+            </div>
+            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
+              <i className="ri-scissors-line flex justify-center text-4xl text-white"></i>
+            </div>
+            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
+              <i className="ri-scissors-line flex justify-center text-4xl text-white"></i>
+            </div>
+            {/* Add more subsector items here */}
+          </div>
+        </div>
         {/*About*/}
         <div
-          className="about grid md:grid-cols-2 grid-cols-1 items-center gap-20 md:pt-20 pt-32"
+          className="about grid md:grid-cols-2 grid-cols-1 items-center gap-20 md:pt-10 pt-5"
           id="about"
         >
           <div className="box md:order-1 order-2">
@@ -133,7 +194,7 @@ const HomePage = () => {
               className="lg:w-[500px] w-[400px] md:m-0 mx-auto rounded-lg"
             />
           </div>
-          <div className="pt-20 box md:order-2 order-1">
+          <div className="pt-10 box md:order-2 order-1">
             <h1 className="lg:text-5xl/tight text-3xl font-medium mb-7">
               Gedung Majalengka
               <span className="font-bold text-sky-400"> Creative Center</span>
