@@ -124,60 +124,125 @@ const HomePage = () => {
         {/* SUbsektor Ekraf*/}
         <div className="container mx-auto pb-5 pt-5">
           <h2 className="text-3xl font-medium mb-4">
-            17 SUBSEKTOR{" "}
-            <span className="text-sky-400 font-bold">EKONOMI KREATIF</span>
+            17 Subsektor
+            <span className="text-sky-400 font-bold"> Ekonomi Kreatif</span>
           </h2>
-          <div className="box bg-white shadow rounded-lg flex flex-row gap-9 overflow-x-auto justify-between pt-5 pb-5 px-5">
-            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
-              <i className="ri-gamepad-line flex justify-center text-4xl text-white"></i>
+          <div className="box bg-white shadow rounded-lg flex flex-row gap-6 overflow-x-auto justify-between pt-5 pb-5 px-5">
+            <div className="flex flex-col items-center">
+              <div className="rounded-full bg-sky-400 px-4 py-3 items-center hover:bg-sky-600 md:text-1xl sm:text-1xl hover:scale-110">
+                <i className="ri-gamepad-line flex justify-center text-2xl text-white"></i>
+              </div>
+              <p className="text-center text-sm pt-3 font-medium">
+                Game Developer
+              </p>
             </div>
-            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
-              <i className="ri-scissors-line flex justify-center text-4xl text-white"></i>
+            <div className="flex flex-col items-center">
+              <div className="rounded-full bg-sky-400 px-4 py-3 items-center hover:bg-sky-600 md:text-1xl sm:text-1xl hover:scale-110">
+                <i className="ri-scissors-line flex justify-center text-2xl text-white"></i>
+              </div>
+              <p className="text-center text-sm pt-3 font-medium">Kriya</p>
             </div>
-            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
-              <i className="ri-home-office-line flex justify-center text-4xl text-white"></i>
+            <div className="flex flex-col items-center">
+              <div className="rounded-full bg-sky-400 px-4 py-3 items-center hover:bg-sky-600 md:text-1xl sm:text-1xl hover:scale-110">
+                <i className="ri-home-office-line flex justify-center text-2xl text-white"></i>
+              </div>
+              <p className="text-center text-sm pt-3 font-medium">
+                Desain Interior
+              </p>
             </div>
-            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
-              <i className="ri-music-2-line flex justify-center text-4xl text-white"></i>
+            <div className="flex flex-col items-center">
+              <div className="rounded-full bg-sky-400 px-4 py-3 items-center hover:bg-sky-600 md:text-1xl sm:text-1xl hover:scale-110">
+                <i className="ri-music-2-line flex justify-center text-2xl text-white"></i>
+              </div>
+              <p className="text-center text-sm pt-3 font-medium">Musik</p>
             </div>
-            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
-              <i className="ri-brush-line flex justify-center text-4xl text-white"></i>
+            <div className="flex flex-col items-center">
+              <div className="rounded-full bg-sky-400 px-4 py-3 items-center hover:bg-sky-600 md:text-1xl sm:text-1xl hover:scale-110">
+                <i className="ri-brush-line flex justify-center text-2xl text-white"></i>
+              </div>
+              <p className="text-center text-sm pt-3 font-medium">Seni Rupa</p>
             </div>
-            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
-              <i className="ri-dropbox-line flex justify-center text-4xl text-white"></i>
+            <div className="flex flex-col items-center">
+              <div className="rounded-full bg-sky-400 px-4 py-3 items-center hover:bg-sky-600 md:text-1xl sm:text-1xl hover:scale-110">
+                <i className="ri-dropbox-line flex justify-center text-2xl text-white"></i>
+              </div>
+              <p className="text-center text-sm pt-3 font-medium">
+                Desain Produk
+              </p>
             </div>
-            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
-              <i className="ri-handbag-line flex justify-center text-4xl text-white"></i>
+            <div className="flex flex-col items-center">
+              <div className="rounded-full bg-sky-400 px-4 py-3 items-center hover:bg-sky-600 md:text-1xl sm:text-1xl hover:scale-110">
+                <i className="ri-handbag-line flex justify-center text-2xl text-white"></i>
+              </div>
+              <p className="text-center text-sm pt-3 font-medium">Fashion</p>
             </div>
-            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
-              <i className="ri-bowl-line flex justify-center text-4xl text-white"></i>
+            <div className="flex flex-col items-center">
+              <div className="rounded-full bg-sky-400 px-4 py-3 items-center hover:bg-sky-600 md:text-1xl sm:text-1xl hover:scale-110">
+                <i className="ri-bowl-line flex justify-center text-2xl text-white"></i>
+              </div>
+              <p className="text-center text-sm pt-3 font-medium">Kuliner</p>
             </div>
-            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
-              <i className="ri-scissors-line flex justify-center text-4xl text-white"></i>
+            <div className="flex flex-col items-center">
+              <div className="rounded-full bg-sky-400 px-4 py-3 items-center hover:bg-sky-600 md:text-1xl sm:text-1xl hover:scale-110">
+                <i className="ri-scissors-line flex justify-center text-2xl text-white"></i>
+              </div>
+              <p className="text-center text-sm pt-3 font-medium">
+                Film, Animasi & Video
+              </p>
             </div>
-            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
-              <i className="ri-scissors-line flex justify-center text-4xl text-white"></i>
+            <div className="flex flex-col items-center">
+              <div className="rounded-full bg-sky-400 px-4 py-3 items-center hover:bg-sky-600 md:text-1xl sm:text-1xl hover:scale-110">
+                <i className="ri-scissors-line flex justify-center text-2xl text-white"></i>
+              </div>
+              <p className="text-center text-sm pt-3 font-medium">Fotografi</p>
             </div>
-            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
-              <i className="ri-scissors-line flex justify-center text-4xl text-white"></i>
+            <div className="flex flex-col items-center">
+              <div className="rounded-full bg-sky-400 px-4 py-3 items-center hover:bg-sky-600 md:text-1xl sm:text-1xl hover:scale-110">
+                <i className="ri-scissors-line flex justify-center text-2xl text-white"></i>
+              </div>
+              <p className="text-center text-sm pt-3 font-medium">
+                Desain Komunikasi Visual
+              </p>
             </div>
-            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
-              <i className="ri-scissors-line flex justify-center text-4xl text-white"></i>
+            <div className="flex flex-col items-center">
+              <div className="rounded-full bg-sky-400 px-4 py-3 items-center hover:bg-sky-600 md:text-1xl sm:text-1xl hover:scale-110">
+                <i className="ri-scissors-line flex justify-center text-2xl text-white"></i>
+              </div>
+              <p className="text-center text-sm pt-3 font-medium">
+                Televisi & Radio
+              </p>
             </div>
-            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
-              <i className="ri-scissors-line flex justify-center text-4xl text-white"></i>
+            <div className="flex flex-col items-center">
+              <div className="rounded-full bg-sky-400 px-4 py-3 items-center hover:bg-sky-600 md:text-1xl sm:text-1xl hover:scale-110">
+                <i className="ri-scissors-line flex justify-center text-2xl text-white"></i>
+              </div>
+              <p className="text-center text-sm pt-3 font-medium">Arsitektur</p>
             </div>
-            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
-              <i className="ri-scissors-line flex justify-center text-4xl text-white"></i>
+            <div className="flex flex-col items-center">
+              <div className="rounded-full bg-sky-400 px-4 py-3 items-center hover:bg-sky-600 md:text-1xl sm:text-1xl hover:scale-110">
+                <i className="ri-scissors-line flex justify-center text-2xl text-white"></i>
+              </div>
+              <p className="text-center text-sm pt-3 font-medium">Periklanan</p>
             </div>
-            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
-              <i className="ri-scissors-line flex justify-center text-4xl text-white"></i>
+            <div className="flex flex-col items-center">
+              <div className="rounded-full bg-sky-400 px-4 py-3 items-center hover:bg-sky-600 md:text-1xl sm:text-1xl hover:scale-110">
+                <i className="ri-scissors-line flex justify-center text-2xl text-white"></i>
+              </div>
+              <p className="text-center text-sm pt-3 font-medium">
+                Seni Pertunjukan
+              </p>
             </div>
-            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
-              <i className="ri-scissors-line flex justify-center text-4xl text-white"></i>
+            <div className="flex flex-col items-center">
+              <div className="rounded-full bg-sky-400 px-4 py-3 items-center hover:bg-sky-600 md:text-1xl sm:text-1xl hover:scale-110">
+                <i className="ri-scissors-line flex justify-center text-2xl text-white"></i>
+              </div>
+              <p className="text-center text-sm pt-3 font-medium">Penerbitan</p>
             </div>
-            <div className="rounded-full bg-sky-400 p-5 items-center hover:bg-sky-600 md:text-2xl sm:text-2xl">
-              <i className="ri-scissors-line flex justify-center text-4xl text-white"></i>
+            <div className="flex flex-col items-center">
+              <div className="rounded-full bg-sky-400 px-4 py-3 items-center hover:bg-sky-600 md:text-1xl sm:text-1xl hover:scale-110">
+                <i className="ri-scissors-line flex justify-center text-2xl text-white"></i>
+              </div>
+              <p className="text-center text-sm pt-3 font-medium">Aplikasi</p>
             </div>
             {/* Add more subsector items here */}
           </div>
