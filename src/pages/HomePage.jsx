@@ -108,7 +108,7 @@ const HomePage = () => {
             </p>
             <a
               href="#about"
-              className="bg-sky-400 hover:bg-sky-500 transition-all py-2 px-4 text-white shadow rounded-full"
+              className="bg-sky-400 hover:bg-sky-500 transition-all py-2 px-4 text-white shadow rounded-full hover:scale-125"
             >
               Tentang Kami <i className="ri-eye-line ms-1"></i>
             </a>
@@ -122,8 +122,8 @@ const HomePage = () => {
           </div>
         </div>
         {/* SUbsektor Ekraf*/}
-        <div className="container mx-auto pb-5 pt-5">
-          <h2 className="text-3xl font-medium mb-4">
+        <div className="container mx-auto pb-5 pt-5" id="Ekraf">
+          <h2 className="text-2xl font-medium mb-4">
             17 Subsektor
             <span className="text-sky-400 font-bold"> Ekonomi Kreatif</span>
           </h2>
@@ -260,7 +260,7 @@ const HomePage = () => {
             />
           </div>
           <div className="pt-10 box md:order-2 order-1">
-            <h1 className="lg:text-5xl/tight text-3xl font-medium mb-7">
+            <h1 className="lg:text-5xl/tight text-2xl font-medium mb-7">
               Gedung Majalengka
               <span className="font-bold text-sky-400"> Creative Center</span>
             </h1>
@@ -287,7 +287,7 @@ const HomePage = () => {
 
         {/*Struktur Organisasi Ekraf*/}
         <div className="pt-32" id="organisasi">
-          <h1 className="text-center lg:text-5xl/tight text-3xl font-medium mb-7">
+          <h1 className="text-center lg:text-2xl/tight text-2xl font-medium mb-7">
             Komite Ekonomi{" "}
             <span className="font-bold text-sky-400">Kreatif</span>
             <img
@@ -301,7 +301,7 @@ const HomePage = () => {
             <div className="box pt-5">
               <div className="text-center bg-white shadow rounded-lg w-auto h-auto items-center">
                 <h1
-                  className="text-center lg:text-3xl/tight text-3xl font-medium mb-7"
+                  className="text-center lg:text-2xl/tight text-2xl font-medium mb-7"
                   id="Tentang-Ekraf"
                 >
                   Tentang Komite{" "}
@@ -320,36 +320,39 @@ const HomePage = () => {
             {/*Visi & Misi*/}
             <div className="box pt-5" id="visimisi">
               <div className="text-center bg-white shadow rounded-lg w-auto h-auto items-center">
-                <h1 className="text-center lg:text-3xl/tight text-3xl font-medium mb-7">
+                <h1 className="text-center lg:text-2xl/tight text-2xl font-medium mb-7">
                   Visi & Misi{" "}
                   <span className="font-bold text-sky-400">Ekraf</span>
                 </h1>
                 <h3 className="pt-1 text-2xl font-medium text-sky-400">Visi</h3>
-                <p className="text-center px-2 text-wrap">
+                <p className="text-justify px-2 text-wrap">
                   Terwujudnya ekonomi kreatif sebagai sektor potensial unggulan
                   yang mendukung pertumbuhan ekonomi di kabupaten majalengka.
                 </p>
                 <h3 className="pt-5 text-2xl font-medium text-sky-400">Misi</h3>
-                <p className="text-center px-2 text-wrap">
-                  1. Mengoptimalisasi aktivasi gedung majalengka creative center
-                  sebagai ruang edukasi kreasi dan ekspresi bagi para pelaku
-                  ekonomi kreatif di kabupaten majalengka
+                <p className="text-justify px-2 text-wrap">
+                  <span className="font-bold">1.</span> Mengoptimalisasi
+                  aktivasi gedung majalengka creative center sebagai ruang
+                  edukasi kreasi dan ekspresi bagi para pelaku ekonomi kreatif
+                  di kabupaten majalengka
                   <p>
-                    2. Mendorong pertumbuhan dan perkembangan ekosistem ekonomi
-                    kreatif di kabupaten majalengka
+                    <span className="font-bold">2.</span> Mendorong pertumbuhan
+                    dan perkembangan ekosistem ekonomi kreatif di kabupaten
+                    majalengka
                   </p>
                   <p>
-                    3. Mendorong pemerintah kab majalengka dalam menerbitkan
-                    peraturan daerah tentang ekonomi kreatif sebagai payung
-                    hukum bagi tumbuh kembangangnya ekosistem ekonomi kreatif di
-                    kabupaten majalengka
+                    <span className="font-bold">3.</span> Mendorong pemerintah
+                    kab majalengka dalam menerbitkan peraturan daerah tentang
+                    ekonomi kreatif sebagai payung hukum bagi tumbuh
+                    kembangangnya ekosistem ekonomi kreatif di kabupaten
+                    majalengka
                   </p>
                 </p>
               </div>
             </div>
           </div>
           <h1
-            className="pt-5 text-center lg:text-3xl/tight text-3xl font-medium mb-7"
+            className="pt-5 text-center lg:text-2xl/tight text-2xl font-medium mb-7"
             id="struktur"
           >
             Struktur Organisasi{" "}
@@ -385,7 +388,7 @@ const HomePage = () => {
         </div>
         {/*Fasilitas*/}
         <div className="pt-32" id="fasilitas">
-          <h1 className="text-center lg:text-5xl/tight text-3xl font-medium mb-7">
+          <h1 className="text-center lg:text-2xl/tight text-2xl font-medium mb-7">
             Fasilitasi Gedung{" "}
             <span className="font-bold text-sky-400">MCC</span>
           </h1>
@@ -490,7 +493,7 @@ const HomePage = () => {
         </div>
         {/*Desa Kreatif*/}
         <div className="profile pt-32 z-50" id="profile">
-          <h1 className="text-center lg:text-5xl/tight text-3xl font-medium mb-2">
+          <h1 className="text-center lg:text-2xl/tight text-2xl font-medium mb-2">
             Desa <span className="font-bold text-sky-400">Tematik</span>
           </h1>
           <p className="text-center">Desa Tematik Kreatif</p>
@@ -681,7 +684,7 @@ const HomePage = () => {
         </div>
         {/*Kontak*/}
         <div className="kontak pt-24" id="kontak">
-          <h1 className="text-center lg:text-5xl/tight text-3xl font-medium mb-2">
+          <h1 className="text-center lg:text-2xl/tight text-2xl font-medium mb-2">
             Kontak <span className="font-bold text-sky-400">Kami</span>
           </h1>
           <section className="contact">
@@ -739,7 +742,7 @@ const HomePage = () => {
         </div>
         {/* Situs Terkait */}
         <div className="situs pt-10" id="situs">
-          <h1 className="text-center lg:text-5xl/tight text-3xl font-medium mb-2">
+          <h1 className="text-center lg:text-2xl/tight text-2xl font-medium mb-2">
             Situs <span className="font-bold text-sky-400">Terkait</span>
           </h1>
           <ul className="box px-5 bg-white shadow rounded-lg py-5 my-5">
