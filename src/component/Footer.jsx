@@ -44,6 +44,12 @@ const Footer = () => {
             </span>
           </a>
           <br />
+          <a href="#Ekraf">
+            <span className="font-normal hover:text-sky-400">
+              17 Subsektor Ekraf
+            </span>
+          </a>
+          <br />
           <a href="#visimisi">
             <span className="font-normal hover:text-sky-400">Visi & Misi</span>
           </a>
