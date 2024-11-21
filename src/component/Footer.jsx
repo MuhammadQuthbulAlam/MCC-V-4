@@ -7,7 +7,7 @@ const Footer = () => {
           <img src={logo} alt="logo" className="w-28" />
           <div className="flex flex-row mt-3 mb-3">
             <i className="ri-phone-line text-1xl hover:text-sky-300 "></i>
-            <p className="ml-3">+62 900 383 294 22</p>
+            <p className="ml-3">+62 823 120 016 95</p>
           </div>
           <div className="flex flex-row">
             <i className="ri-map-pin-2-line text-1xl hover:text-red-300 "></i>
