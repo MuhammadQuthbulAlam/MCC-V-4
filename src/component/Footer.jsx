@@ -70,6 +70,12 @@ const Footer = () => {
           Gedung MCC
           <br />
           <br />
+          <a href="#about">
+            <span className="font-normal hover:text-sky-400">
+              Tentang Gedung MCC
+            </span>
+          </a>
+          <br />
           <a href="#fasilitas">
             <span className="font-normal hover:text-sky-400">
               Fasilitas Gedung
