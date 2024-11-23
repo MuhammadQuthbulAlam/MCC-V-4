@@ -46,7 +46,7 @@ const Navbar = () => {
               <i className="ri-home-2-line text-3xl md:hidden block"></i>
               <a
                 href="#home"
-                className="font-medium opacity-75 bg-transparent hover:bg-sky-500 hover:text-white transition-all py-1 px-2 rounded-lg"
+                className="font-medium opacity-75 bg-transparent hover:bg-sky-500 hover:text-white transition-all py-1 px-2 rounded-lg hover:underline-offset-8"
               >
                 Beranda
               </a>
